@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using MelonLoader;
 using Health;
 
-[assembly: MelonInfo(typeof(HealthMod), "Health", "1.0.0", "Voidane")]
+[assembly: MelonInfo(typeof(HealthMod), "HealthDisplay", "1.0.0", "Voidane")]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 // General Information about an assembly is controlled through the following

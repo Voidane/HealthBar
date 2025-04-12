@@ -8,8 +8,13 @@ using UnityEngine.UI;
 
 namespace Health
 {
-    public class HealthBarController : MonoBehaviour
+    public static class HealthBarController
     {
-
+        public static void UpdateHealth(float health)
+        {
+            HealthUICreator.healthSlider.value = health;
+            HealthUICreator.healthText.text = $"{health}%";
+            MelonLoader.MelonLogger.Msg("Changed slider");
+        }
     }
 }

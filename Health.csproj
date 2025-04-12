@@ -44,6 +44,9 @@
     <Reference Include="MelonLoader">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Schedule I\MelonLoader\net6\MelonLoader.dll</HintPath>
     </Reference>
+    <Reference Include="ModManagerPhoneApp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Schedule I\Mods\ModManagerPhoneApp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -63,9 +66,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigData.cs" />
     <Compile Include="HealthBarController.cs" />
     <Compile Include="HealthMod.cs" />
     <Compile Include="HealthUICreator.cs" />
+    <Compile Include="PlayerHealth_Update_Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
