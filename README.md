@@ -11,7 +11,7 @@
 
 <div align="center">
 
-### [⬇️ Download from Nexus Mods](https://www.nexusmods.com/schedule1/mods/423)
+### [⬇️ Download from Nexus Mods](https://www.nexusmods.com/schedule1/mods/538)
 
 </div>
 
