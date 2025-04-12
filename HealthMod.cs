@@ -21,8 +21,8 @@ namespace Health
         public static GameObject healthHolder;
         public static HealthUICreator healthUI;
         private const string versionCurrent = "1.0.0";
-        private const string versionMostUpToDateURL = "";
-        private const string urldownload = "";
+        private const string versionMostUpToDateURL = "https://raw.githubusercontent.com/Voidane/HealthBar/refs/heads/master/Version.txt";
+        private const string urldownload = "https://github.com/Voidane/HealthBar";
         private string versionUpdate = null;
 
         public override void OnInitializeMelon()

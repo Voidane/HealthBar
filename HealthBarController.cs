@@ -14,7 +14,6 @@ namespace Health
         {
             HealthUICreator.healthSlider.value = health;
             HealthUICreator.healthText.text = $"{health}%";
-            MelonLoader.MelonLogger.Msg("Changed slider");
         }
     }
 }
