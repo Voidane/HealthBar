@@ -189,7 +189,7 @@ namespace HealthDisplay
                     isDragging = true;
                     dragOffset = new Vector2(currentEvent.mousePosition.x - PositionX, currentEvent.mousePosition.y - _positionY);
                 }
-                else if (currentEvent.type == EventType.MouseUp)
+                else if (currentEvent.type == EventType.MouseUp && dragRect.Contains(currentEvent.mousePosition))
                 {
                     MelonLogger.Msg($"Saved position coordinates to {ConfigData.folderPath}::{ConfigData.positioning.DisplayName}");
                     HealthBarController.SaveInGamePositionToConfig();
