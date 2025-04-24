@@ -6,7 +6,9 @@
 # Build files
 /bin/
 /target/
+/obj/
 *.class
+*.sln
 
 # Logs
 *.log
