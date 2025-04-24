@@ -1,0 +1,19 @@
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Build files
+/bin/
+/target/
+*.class
+
+# Logs
+*.log
+
+# Dependencies
+/node_modules/
+
+# OS specific files
+.DS_Store
+Thumbs.db

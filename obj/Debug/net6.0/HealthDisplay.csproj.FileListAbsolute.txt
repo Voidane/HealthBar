@@ -92,3 +92,4 @@ C:\Users\Austin\HealthDisplay\bin\Debug\net6.0\MonoMod.ILHelpers.dll
 C:\Users\Austin\HealthDisplay\bin\Debug\net6.0\MelonLoader.xml
 C:\Users\Austin\HealthDisplay\obj\Debug\net6.0\HealthDisplay.csproj.AssemblyReference.cache
 C:\Users\Austin\HealthDisplay\obj\Debug\net6.0\HealthDi.E00C095D.Up2Date
+C:\Users\Austin\HealthDisplay\obj\Debug\net6.0\HealthDisplay.sourcelink.json
